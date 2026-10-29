@@ -1,0 +1,9 @@
+{{ define "nav" }}
+<div class="topnav">
+  <a href="/">Документы</a>
+  <a href="/wiki">Wiki</a>
+  <a href="/kanban">Канбан</a>
+  <a href="/admin">Админ</a>
+  {{ template "userbar.html" . }}
+</div>
+{{ end }}
